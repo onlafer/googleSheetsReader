@@ -2,7 +2,8 @@ import re
 import string
 import pandas as pd
 
-SHEET_URL = "ссылка"
+SHEET_ID = "Идентификатор из таблицы"
+SHEET_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=xlsx"
 OUTPUT_FILE = "output.xlsx"
 INDEX_COL_NAME = "ID проекта"
 SELECTED_COLUMNS = (
